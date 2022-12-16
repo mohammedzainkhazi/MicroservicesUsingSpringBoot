@@ -1,0 +1,29 @@
+server:
+  port: 3081
+spring:
+  application:
+    name: gateway-service
+  cloud:
+    gateway:
+      routes:
+        - id: lab-service
+          uri: http://localhost:3002/
+          predicates:
+            - Path=/api/**
+        - id: get-service
+          uri: http://localhost:3001/
+          predicates:
+            - Path=/get/**
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:3000/eureka
+  registerWithEureka:
+    - true
+  fetchRegistry:
+    - true
+info:
+  app:
+    version: 1.0.0
+    name: Computer Lab Management
+    description: This is a CRUD application for managing computers in Labs
