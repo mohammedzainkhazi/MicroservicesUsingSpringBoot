@@ -20,5 +20,7 @@ http://localhost:3000
 ####open fourth command prompt
 cd gateway_service
 mvnw spring-boot:run
-http://localhost:3081/customers
-http://localhost:3081/orders
+http://localhost:3081/lab-service/create
+http://localhost:3081/lab-service/update/2
+http://localhost:3081/get/all
+http://localhost:3081/get/4
