@@ -12,7 +12,6 @@ public class MslabSpringbootTestApplication {
 		// SpringApplication.run(MslabSpringbootTestApplication.class, args);
 		System.out.println('Hello Zain!');
 		System.out.println('Hello Aryan!');
-
 	}
 
 }
