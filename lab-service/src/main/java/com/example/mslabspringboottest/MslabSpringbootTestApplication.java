@@ -9,7 +9,6 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 public class MslabSpringbootTestApplication {
 
 	public static void main(String[] args) {
-		// SpringApplication.run(MslabSpringbootTestApplication.class, args);
 		System.out.println('Hello Rijul!');
 		System.out.println('Hello Deepansha!');
 		System.out.println('-----');
