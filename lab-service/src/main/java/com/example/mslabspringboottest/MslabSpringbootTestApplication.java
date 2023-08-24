@@ -10,7 +10,7 @@ public class MslabSpringbootTestApplication {
 
 	public static void main(String[] args) {
 		// SpringApplication.run(MslabSpringbootTestApplication.class, args);
-
+		System.out.println('Hello Rijul!');
 		System.out.println('Hello Deepansha!');
 		System.out.println('-----');
 		System.out.println('!!!!!')
@@ -20,7 +20,6 @@ public class MslabSpringbootTestApplication {
 		System.out.println('Hello DXM!');
 		System.out.println('Hello Mohammed Zain Khazi!');
 		System.out.println('Hi Priyansh');
-
 	}
 
 }
